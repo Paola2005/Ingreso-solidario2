@@ -28,16 +28,27 @@
             <br>
             <div class="contenedor">
                 <form action="" method="post">
-                    <label for="tipo">Tipo de documento</label>
+                    <label for="tipoDocumento">Tipo de Documento:</label>
                     <br>
-                    <input class="cuad" type="number" id="numero" name="numero" pattern="[0-9]*" required>
+                        <select class="cuad" id="tipoDocumento" name="tipoDocumento">
+                            <option value="DNI">No tiene</option>
+                            <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                            <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                            <option value="Cedula de extranjeria">Cedula de extranjeria</option>
+                            <option value="Registro civil">Registro civil</option>
+                            <option value="DNI">DNI</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                            <option value="Salvoconducto migratorio">Salvoconducto migratorio</option>
+                            <option value="Servicio especial de permanencia-PEP">Servicio especial de permanencia-PEP</option>
+                            <option value="Permiso por proteccion temporal">Permiso por proteccion temporal</option>
+                        </select>
                 </form>
                 <br>
 
                 <form action="">
                     <label for="id">Numero de documento</label>
                     <br>
-                    <input class="cuad" type="number" id="numero" name="numero" pattern="[0-9]*" required>
+                    <input class="cuad" type="number" id="numero" name="numero" required>
                 </form>
                 <br>
                 <form action="">
@@ -72,10 +83,10 @@
         <div class="textlad">
             <h1>Ingreso solidario</h1>
             <br>
-            <h4> Debido a la siruacion generada por el COVID-19,<br>
+            <p> Debido a la siruacion generada por el COVID-19,<br>
                 el gobierno nacional aportara a las familias mas afectadas <br>
                 y que no pertenezcan a ningun programa social, <br>
-                un subsidio por $160.000</h4>
+                un subsidio por $160.000</p>
             <br>
             <div>
                 <button class="bot"><a href="#seccion2" type="submit">Conocer mas</a></button>
@@ -88,26 +99,27 @@
             <h1>¿Que es el ingreso solidario?</h1>
 
             <div class="context">
-                <h3>Es un esquema mediante el cual se entrega una <br>
-                    transferencia monetaria en favor de los hogares <br>en situacion de pobreza y vulnerabilidad que
-                    <br>
-                    no sean beneficiarios de programas sociales del Estado. <br><br>Los hogares en condicion de pobreza
-                    <br>
-                    y vulnerabilidad, afectados en sus <br>ingresos como consecuencia de la pandemis del coronavirus,
-                    <br>
-                    que no hagan parte de los programas scoiales <br>"Familias en Accion","Colombia Mayor",<br>
-                    "Jovenes en Accion" y "Devolucion del IVA" <br>
-                    podran acceder a esta medida social.
-                    <br>
-                    <br>
-                    <div class="scroll-down">
-                        <a href="#seccion3" class="arrow-link">
-                          <span class="description">Conocer las etapas de entrega</span>
-                          <span class="arrow"></span>
-                        </a>
-                      </div>
-
-                    </h3>
+                <div class="contenedort">
+                    <p>Es un esquema mediante el cual se entrega una <br>
+                        transferencia monetaria en favor de los hogares <br>en situacion de pobreza y vulnerabilidad que
+                        <br>
+                        no sean beneficiarios de programas sociales del Estado. <br><br>Los hogares en condicion de pobreza
+                        <br>
+                        y vulnerabilidad, afectados en sus <br>ingresos como consecuencia de la pandemis del coronavirus,
+                        <br>
+                        que no hagan parte de los programas scoiales <br>"Familias en Accion","Colombia Mayor",<br>
+                        "Jovenes en Accion" y "Devolucion del IVA" <br>
+                        podran acceder a esta medida social.
+                        <br>
+                        <br>
+                        <div class="scroll-down">
+                            <a href="#seccion3" class="arrow-link">
+                            <span class="description">Conocer las etapas de entrega</span>
+                            <span><img class="imagenfle" src="./images/flecha.png" alt="secciones"></span>
+                            </a>
+                        </div>
+                        </p>
+                </div>
 
                     <div class="imgiz">
                         <img src="images/Drop.png" alt="img">
@@ -122,47 +134,189 @@
             <h1>Etapas de Entrega</h1>
             <div class="etapas">
                 <div class="etapa1">
-                    <h2>Etapa 1</h2>
+                    <p>Etapa 1</p>
+        
                     <h4>Desde el 7 de abril</h4>
                 </div>
                 <br>
                 <div class="etapa1">
-                    <h2>Etapa 2</h2>
+                    <p>Etapa 2</p>
+                    
                     <h4>9 de ebril al 18 de abril</h4>
                 </div>
                 <br>
                 <div class="etapa1">
-                    <h2>Etapa 3</h2>
+                    <p>Etapa 3</p>
                     <h4>18 de abril al 25 de abril</h4>
                 </div>
             </div>
             <br>
+            <br>
+            <br>
             <div class="bancos">
                 <h1>Bancos Autorizados</h1>
                 <div class="banco1">
-                    <img src="images/Bancamia.png" alt="img">
-                </div>
-                <div class="banco1">
-                    <img src="images/logo-bancolombia.png" alt="img">
-                </div>
-                <div class="banco1">
-                    <img src="images/CajaSocial.png" alt="img">
-                </div>
-                <div class="banco1">
-                    <img src="images/Movii.png" alt="img">
-                </div>
-                <div class="banco1">
-                    <img src="images/DaviPlata.png" alt="img">
-                </div>
+                    <img class="ban" src="images/Bancamia.png" alt="img">
                 
-                    
+                    <img class="ban" src="images/logo-bancolombia.png" alt="img">
+               
+                    <img class="ban"src="images/CajaSocial.png" alt="img">
+                    <br>
+                    <img class="ban"src="images/Movii.png" alt="img">
+          
+                    <img class="ban"src="images/DaviPlata.png" alt="img">
+                </div>
+                <br>
+                <div class="scroll-down">
+                    <a href="#seccion4" class="arrow-link">
+                      <span class="description">Preguntas frecuentes</span>
+                      <span><img class="imagenfle" src="./images/flecha.png" alt="secciones"></span>
+                    </a>
+                </div>    
             </div>
-
-
-
         </div>
-
     </div>
+
+    <div id="seccion4">
+        <div class="contenedor4">
+            <p class="pre">Preguntas Frecuentes</p>
+            <div class="circle">
+                <p class="number">1</p>
+            </div>
+            <div>
+                <h2>
+                    Ya habia salido como beneficiaria en la primera fase y ahora no aparezco <br>
+                    en el listado de beneficiarios ¿Es decir, ya no recibire el beneficio?
+                </h2>
+                <br>
+                <p class="contextpr">
+                    Estamos actualizando el listado de beneficiarios que recibieron el giro. <br>
+                    si encontro su nombre en la primera etapa y esta plenamente <br>
+                    identificado, no ha perdido su beneficio
+                </p>
+                <br>
+                <div class="circle">
+                    <p class="number">2</p>
+                </div>
+
+                <h2>
+                    ¿Por que no aparezco ahora en el listado de ingresosolidario.prosperidadsocial.gov.co?
+                </h2>
+                <br>
+                <p class="contextpr">
+                    Estamos actualizando el listado de beneficiarios que recibieron el giro. <br>
+                    si encontro su nombre en la primera etapa y esta plenamente <br>
+                    identificado, no ha perdido su beneficio
+                </p>
+                <br>
+                <br>
+                <div class="scroll-down">
+                    <a href="#seccion5" class="arrow-link">
+                      <span class="description">Ver mas </span>
+                      <span><img class="imagenfle" src="./images/flecha.png" alt="secciones"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="seccion5">
+        <div class="contenedor5">
+            <div class="circle">
+                <p class="number">3</p>
+            </div>
+            <div>
+                <h2>
+                    ¿Qué debo hacer porque me llegó el mensaje de que soy beneficiario y no he recibido el pago?
+                </h2>
+                <br>
+                <p class="contextpr">
+                    usted fue informado de que es beneficiario del programa mediante un mensaje de texto <br>
+                    enviado por la entidad financiera en la cual tiene una cuenta o depósito activo, <br>
+                    comuníquese con esa entidad financiera para averiguar cómo acceder a los recursos del Ingreso Solidario. <br>
+                    Si usted no tiene una cuenta o depósito con el sistema financiero, y es elegido <br>
+                    dentro del programa ingreso Solidario, pronto recibirá un mensaje con <br>
+                    las instrucciones para hacer la apertura de una cuenta digital.
+                </p>
+                <br>
+                <div class="circle">
+                    <p class="number">4</p>
+                </div>
+
+                <h2>
+                    Consulté en la página web y soy beneficiario, pero aún <br>
+                    no me han llamado ni he recibido mensaje de texto ¿Qué debo hacer?
+                </h2>
+                <br>
+                <p class="contextpr">
+                    Si usted encontró su nombre y cédula en la base de beneficiarios y no ha recibido un mensaje de texto, significa que hace parte <br>
+                    de un ciclo posterior de pagos. Durante esta etapa, las entidades financieras se contactarán con usted <br>
+                    para darle las indicaciones de cómo recibir el giro o hacer la apertura de un depósito simplificado a través de su celular
+                </p>
+                <br>
+                <br>
+                <div class="scroll-down">
+                    <a href="#seccion6" class="arrow-link">
+                      <span class="description">Ver mas </span>
+                      <span><img class="imagenfle" src="./images/flecha.png" alt="secciones"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="seccion6">
+        <div class="contenedor6">
+            <div class="circle">
+                <p class="number">5</p>
+            </div>
+            <div>
+                <h2>
+                   ¿Que debemos hacer los que somos beneficiarios, pero no tenemos celular o cambiamos de numero?
+                </h2>
+                <br>
+                <p class="contextpr">
+                    Prosperidad Social esta trabajando con diferentes organizaciones y <br>
+                    fuentes de datos para ubicarlo y contactarlo. <br>
+                    Lo invitamos a consultar periodicamente la pagina.
+                </p>
+                <br>
+
+                <div class="rectangle">
+                    <div class="content">
+                        <h2 class="rectpr">¿Tienes mas preguntas?</h2>
+                        <p class="rectpar">Por favor no dudes en contactarnos para poderte dar la informacion que necesites </p>
+                        <button>Contactanos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <footer class="footer">
+        <div class="section section1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAexJREFUSEu1lc9LV1EQxT8naFGLQAqiNMFauCksiIgwt4ELN66EJCikRUIgtPEfaBMU1CKkNkkF/QEuXOYPLKGkRUEEhVpZkUsDIyYGnjDc73vvPgXf8s6558yZmTtP7PKnXeYnK2BmncAQ0A/0FAm9BaaA55JW65KsFDCzA8AkMFBDYMAL4KqkjTJcqYCZ7QdeAScbltCxFyX9TfFVAk+A4YbkW7C7ksayAmZ2CniXAH8A1wpXHroAPAYOBdwmcFzS13i3xYGZ3QdGA8jJT0taixfNrKNIpC2cj0u6nRP4BJwIoMuSnpaVy8xGgIkQm5HUlxPwadgXQEclfa8QOAYsh9i6pIM5gXUg2m6X9K1CwMu0EmK/JcW+tD40M/OROxcuXZHkU9XymZk3/lEIzEnqzTl4ANwIoF/+HiT9LGnyEhBLckfSrZzAWWAxSddL5A1dAPYAnuVD4HCC65b0sVbAg2b2BjhTVpaas2lJl9J41Ut2F68hvwwLQt9JXsb3jQQKF/eAmw1dTEi6Xoat26Z7gdlkoso4fK2cl/RnWwKFC59pF+mucPLZ91K6RrJNTsbxCDAHdCUiX4A+SfGhteSR/aMVTtqBl74tC4Z5YLAu8y2lRgKhXM+AD8CYpH9NBqCxQBOybTd5p6Tx3n+wo5YZLbK3lAAAAABJRU5ErkJggg=="/>
+            <p>
+                Prosperidad social <br>
+                Carrera 7 No.27-18/Bogota D.C, Colombia <br>
+                Codigo Postal: 110311 <br>
+                Horario de Atencion: 8:00 a.m - 2:00 p.m
+            </p>
+        </div>
+        <div class="section section2">
+            <img src="images/logo_footer.png" alt="">
+        </div>
+        <div class="section section3">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZBJREFUSEu9lT8oR1EUxz/fTRQlBgab/FIMksGm/EmymGzKQoiREguRwehnlIViMyiZSBaDUgZZKKuFlERHV4/e7/o9/e774dab3r2fzznnvnOe+OOlP+bz/wIzc9IZoB6YkvRYTJY5GZhZObAD9ETQU6BD0ktaiS+4AJo82B4wIOktjcQXWAJkQ9LwbwiegNIE0KykpVCJn8El0JgA2ZfUV6xgGxjMA7kCOiXdFSsYBdY9yDnQJek+FO72+yWqA249UEaSyyDV+tbJZuY+y/4YbV7SQiq6n4GDmFkrcBYDPgOtktwH8LXMrAZYBQ4kbSYFkHcWmdkaMBY7dAN0S7qOgqgGjoFMtGdR0lw+SZKgBDgC2mKHXI8sA7vR0+wBs8CEpJxmTZymZlYFnAANAfXfAoYkvX6e+XFcm1lFFG1XgCQrabwgQVRvF8Qk4MZE0hiJ+1ckuXH/sQr+4ZiZu9hpwDVjWUJGh0BvfPIWLPgEmlklMAK0Ay1AbfTONWObpIe4PFgQcBdhJQoFB99BWsE71fhxGZQ5l84AAAAASUVORK5CYII="/>
+            <p>
+                Linea Gratuita Nacional: 01-8000-951100 <br>
+                Nueva línea de atención Bogotá: 601 379 1088 <br>
+                Conmutador: 601 514 2060 <br>
+                ingreso.solidario@prosperidadsocial.gov.co <br>
+            </p>
+        </div>
+    </footer>
     
 </body>
 </html>
