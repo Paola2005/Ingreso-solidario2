@@ -13,36 +13,56 @@ html,body{
 }
 
 .menucont {
-    background-color:#3d65c4;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    height: 10%;
+  background-color: #3d65c4;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
 }
+
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  padding: 0 20px;
 }
 
 .menu-item {
-    display: flex;
-    color: white;
-    text-decoration: none;
-    padding: 0 20px;
-    transition: background-color 0.3s ease;
-    font-size: 30px;
-    cursor: pointer;
-    text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
+
 .menu-item:hover {
-    background-color: #2164cf;
+  background-color: #2164cf;
 }
+
+.logo {
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  height: auto; /* Ajusta la altura automáticamente */
+  display: block; /* Elimina el espacio en blanco debajo de la imagen */
+}
+
+.boton {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+
+
+
+
 button{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -76,52 +96,62 @@ button{
     transition: background-color 0.3s ease;
 }
 
-
-#seccion1{
+#seccion1 {
     background-image: url(images/Fondo.png);
     background-size: cover;
     display: flex;
-    width:100%;
-    height: 100%;
+    width: 100%;
+    min-height: 100vh; /* Cambio para ajustar al tamaño de la pantalla */
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    padding: 20px; /* Añadido */
+    box-sizing: border-box; /* Añadido */
 }
 
-
-
-.contenedor1{
+.contenedor1 {
     background-color: #ffffff;
-    border-radius: 30px ;
-    width: 30%;
+    border-radius: 30px;
+    width: 100%; /* Cambio para ocupar todo el ancho en dispositivos móviles */
+    max-width: 400px; /* Añadido para limitar el ancho máximo */
     padding: 20px;
+    box-sizing: border-box;
 }
-.titufor, .textfor{
-    text-align: center;
 
+.titufor, .textfor {
+    text-align: center;
 }
-.textfor{
+
+.textfor {
     font-size: 90%;
 }
-.cuad{
+
+.cuad {
     width: 100%;
+    padding: 5px; /* Añadido para espacio interno */
+    box-sizing: border-box;
 }
-.bot{
+
+.bot {
     display: flex;
     background-color: #006eff;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 10px; /* Añadido para espacio superior */
+    padding: 10px; /* Añadido para espacio interno */
+    border-radius: 5px; /* Añadido para bordes redondeados */
 }
 
-.bot a{
-    text-decoration:none;
-    color: rgb(255, 255, 255);    
+.bot a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
-.textlad{
+
+.textlad {
     text-align: center;
+    margin-top: 20px; /* Añadido para espacio superior */
 }
-
 
 
 
@@ -358,6 +388,101 @@ button{
   }
 
 
+
+
   
+
+    @media screen and (max-width: 768px) {
+     
+      .menucont {
+        height: auto;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .menu-item {
+        padding: 10px 0;
+        width: 100%; /* Ajusta el ancho de los elementos en dispositivos móviles */
+        text-align: center; /* Alinea el texto a la izquierda en dispositivos móviles */
+    }
+    #seccion1 {
+      width: 125vh;
+      height: 100vh;
+      padding: 10px;
+  }
+  #seccion2 {
+    flex-direction: column;
+    width: 125vh;
+    height: 100vh;
+    padding: 10px;
+    flex-direction:column-reverse; 
+      align-items: flex-end;
+      height: auto;
+}
+#seccion3 {
+  width: 125vh;
+  height: 100vh;
+  padding: 10px;
+}
+#seccion4 {
+  width: 125vh;
+  height: 100vh;
+  padding: 10px;
+}
+#seccion5 {
+  width: 125vh;
+  height: 100vh;
+  padding: 10px;
+}
+#seccion6 {
+  width: 125vh;
+  height: 100vh;
+  padding: 10px;
+}
+.rectangle {
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  height: auto;
+}
+.footer{
+  width: 125vh;
+  height: 30vh;
+  padding: 10px;
+
+}
+.cuad {
+    width: 100%;
+    padding: 5px; /* Añadido para espacio interno */
+    box-sizing: border-box;
+    top: 100%;
+}
+
+.contenedor1 {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.cuad, .bot {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.textfor {
+  font-size: 14px;
+}
+
+.boton a {
+  padding: 8px 10px;
+}
+}
+
   
   
