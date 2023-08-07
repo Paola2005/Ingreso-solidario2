@@ -421,13 +421,9 @@ button{
       padding: 10px;
   }
   #seccion2 {
-    flex-direction: column;
     width: 125vh;
     height: 150vh;
     padding: 10px;
-    flex-direction:column-reverse; 
-      align-items: flex-end;
-      height: auto;
 }
 #seccion3 {
   width: 125vh;
