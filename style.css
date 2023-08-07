@@ -394,8 +394,14 @@ button{
 
     @media screen and (max-width: 768px) {
      
+      header{
+        width: 125vh;
+      height: 30vh;
+
+      }
       .menucont {
         height: auto;
+        position: static;
     }
     
     .menu {
@@ -411,13 +417,13 @@ button{
     }
     #seccion1 {
       width: 125vh;
-      height: 100vh;
+      height: 150vh;
       padding: 10px;
   }
   #seccion2 {
     flex-direction: column;
     width: 125vh;
-    height: 100vh;
+    height: 150vh;
     padding: 10px;
     flex-direction:column-reverse; 
       align-items: flex-end;
@@ -425,22 +431,22 @@ button{
 }
 #seccion3 {
   width: 125vh;
-  height: 100vh;
+  height: 150vh;
   padding: 10px;
 }
 #seccion4 {
   width: 125vh;
-  height: 100vh;
+  height: 150vh;
   padding: 10px;
 }
 #seccion5 {
   width: 125vh;
-  height: 100vh;
+  height: 150vh;
   padding: 10px;
 }
 #seccion6 {
   width: 125vh;
-  height: 100vh;
+  height: 150vh;
   padding: 10px;
 }
 .rectangle {
@@ -465,7 +471,7 @@ button{
 
 .contenedor1 {
   width: 100%;
-  border-radius: 0;
+  border-radius: 30px;
   padding: 10px;
 }
 
@@ -483,6 +489,7 @@ button{
   padding: 8px 10px;
 }
 }
+
 
   
   
