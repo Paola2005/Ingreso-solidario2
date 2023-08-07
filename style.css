@@ -394,12 +394,9 @@ button {
 
   @media screen and (max-width: 768px) {
    
-    header{
-      width: 100vh;
-
-    }
     .menucont {
       height: auto;
+      width: 100vh;
       position: static;
   }
   
