@@ -45,9 +45,9 @@ background-color: #2164cf;
 }
 
 .logo {
-max-width: 100%; /* Ajusta el ancho máximo de la imagen */
-height: auto; /* Ajusta la altura automáticamente */
-display: block; /* Elimina el espacio en blanco debajo de la imagen */
+max-width: 100%; 
+height: auto; 
+display: block; 
 }
 
 .boton {
@@ -101,19 +101,19 @@ background-color: #0059ff;
   background-size: cover;
   display: flex;
   width: 100%;
-  min-height: 100vh; /* Cambio para ajustar al tamaño de la pantalla */
+  min-height: 100vh; 
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  padding: 20px; /* Añadido */
-  box-sizing: border-box; /* Añadido */
+  padding: 20px;
+  box-sizing: border-box; 
 }
 
 .contenedor1 {
   background-color: #ffffff;
   border-radius: 30px;
-  width: 100%; /* Cambio para ocupar todo el ancho en dispositivos móviles */
-  max-width: 400px; /* Añadido para limitar el ancho máximo */
+  width: 100%; 
+  max-width: 400px; 
   padding: 20px;
   box-sizing: border-box;
 }
@@ -128,7 +128,7 @@ background-color: #0059ff;
 
 .cuad {
   width: 100%;
-  padding: 5px; /* Añadido para espacio interno */
+  padding: 5px; 
   box-sizing: border-box;
 }
 
@@ -138,9 +138,9 @@ background-color: #0059ff;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 10px; /* Añadido para espacio superior */
-  padding: 10px; /* Añadido para espacio interno */
-  border-radius: 5px; /* Añadido para bordes redondeados */
+  margin-top: 10px;
+  padding: 10px; 
+  border-radius: 5px; 
 }
 
 .bot a {
@@ -150,7 +150,7 @@ background-color: #0059ff;
 
 .textlad {
   text-align: center;
-  margin-top: 20px; /* Añadido para espacio superior */
+  margin-top: 20px; 
 }
 
 
@@ -231,13 +231,13 @@ background-color: #0059ff;
 }
 
 .etapas{
-  display: flex; /* Utilizar flexbox para alinear en una fila */
-  justify-content: space-around; /* Distribuir elementos con espacio entre ellos */
-  align-items: center; /* Centrar verticalmente los elementos */
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
   margin: 20px;
 }
 .etapa1{
-  flex: 8; /* Distribuir espacio de manera uniforme entre los elementos */
+  flex: 8; 
   padding: 20px;
   font-size: 200%;
 }
@@ -361,7 +361,7 @@ button {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
   background-color:#3d65c4;
   color: white;
@@ -396,7 +396,6 @@ button {
    
     header{
       width: 100vh;
-    height: 30vh;
 
     }
     .menucont {
@@ -412,8 +411,8 @@ button {
   
   .menu-item {
       padding: 10px 0;
-      width: 100%; /* Ajusta el ancho de los elementos en dispositivos móviles */
-      text-align: center; /* Alinea el texto a la izquierda en dispositivos móviles */
+      width: 100%;
+      text-align: center; 
   }
   #seccion1 {
     width: 100vh;
@@ -460,7 +459,7 @@ padding: 10px;
 }
 .cuad {
   width: 100%;
-  padding: 5px; /* Añadido para espacio interno */
+  padding: 5px; 
   box-sizing: border-box;
   top: 100%;
 }
